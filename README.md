@@ -5,3 +5,7 @@ This repository contains projects from Brad Traversy's course "Modern JavaScript
 These projects are focused on Web Browser APIs.
 
 # Project 01: Animated Clock
+
+![ Animated Clock screenshot](clock.png)
+
+Clock in action: https://youtu.be/AkSkDdQupkQ
