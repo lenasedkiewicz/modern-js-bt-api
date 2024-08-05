@@ -79,6 +79,21 @@ function clock() {
   ctx.stroke();
   ctx.restore();
 
+  // Draw second hand
+  ctx.save();
+  ctx.rotate((Math.PI / 30) * sec);
+  ctx.strokeStyle = "#ff7f50";
+  ctx.fillStyle = "#ff7f50";
+  ctx.lineWidth = 6;
+  ctx.beginPath();
+  ctx.moveTo(-30, 0);
+  ctx.lineTo(100, 0);
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.arc(0, 0, 10, 0, Math.PI * 2, true);
+  ctx.fill();
+  ctx.restore();
+
   ctx.restore(); // restore default state
 }
 
